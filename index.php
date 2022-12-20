@@ -15,5 +15,5 @@ $result = mysqli_query($conn, $sql);
             $response =  $row['word'];
             // echo json_encode($response);
             echo $response;
-            }
+        }
 }
