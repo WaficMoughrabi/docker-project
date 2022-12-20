@@ -16,6 +16,4 @@ $result = mysqli_query($conn, $sql);
             // echo json_encode($response);
             echo $response;
             }
-    }else{
-        echo "No records matching your query were found.";
-    }
+}
